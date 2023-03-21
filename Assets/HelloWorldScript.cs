@@ -18,7 +18,16 @@ public class HelloWorldScript : MonoBehaviour
                 print("It's my birthday month!");
             }
         }
-        
+
+        for (int i = 1; i < 30; i = i + 1)
+        {
+            Debug.Log(i);
+
+            if (i == 14)
+            {
+                print("It's my birthday day!");
+            }
+        }
 
     }
 
